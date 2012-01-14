@@ -40,6 +40,9 @@ set statusline=[%n]\ %f\ %m\ %y
 set statusline+=%{fugitive#statusline()} " Show git details"
 set statusline+=%{exists('g:loaded_rvm')?rvm#statusline():''} " Show RVM details"
 set statusline+=%w              " [Preview]
+set statusline+=\ %#warningmsg# " Show syntastic warning message
+set statusline+=%{SyntasticStatuslineFlag()}
+set statusline+=%*              " End warning message formatting
 set statusline+=%=              " Left/right separator
 set statusline+=%c,             " Cursor column
 set statusline+=%l/%L           " Cursor line/total lines
