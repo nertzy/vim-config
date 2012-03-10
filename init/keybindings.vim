@@ -4,6 +4,9 @@
 let mapleader = ","
 let maplocalleader = ";"
 
+" kj - The intuitive way to get out of insert mode
+imap kj         <Esc>
+
 " Make Y consistent with D and C
 map Y           y$
 
