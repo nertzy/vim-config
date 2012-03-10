@@ -34,7 +34,11 @@ map <D-z>       :earlier 1<CR>
 map <D-Z>       :later 1<CR>
 
 " Auto-indent whole file
-map <silent> <F7> mzgg=G'z :delmarks z<CR>:echo "Reformatted."<CR>
+nmap <leader>=  gg=G``
+map <silent> <F7> gg=G`` :delmarks z<CR>:echo "Reformatted."<CR>
+
+" Jump to a new line in insert mode
+imap <D-CR>     <Esc>o
 
 " Fast scrolling
 nnoremap <C-e>  3<C-e>
@@ -61,7 +65,6 @@ vmap <s-tab> <gv
 " FuzzyFinder and switchback commands
 map <leader>e   :e#<CR>
 map <leader>b   :FufBuffer<CR>
-map <leader>f   <Plug>PeepOpen
 map <leader><C-N> :FufFile **/<CR>
 map <D-e> :FufBuffer<CR>
 map <leader>n :FufFile **/<CR>

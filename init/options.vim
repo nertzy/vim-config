@@ -2,6 +2,8 @@ set guifont=Menlo:h14
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
 set guioptions-=rL              " Remove scrollbars
+set guicursor=a:blinkon0        " Turn off the blinking cursor
+
 set notimeout                   " No command timeout
 set showcmd                     " Show typed command prefixes while waiting for operator
 set mouse=a                     " Use mouse support in XTerm/iTerm.
@@ -52,6 +54,8 @@ set laststatus=2                " Always show statusline
 
 set incsearch                   " Incremental search
 set history=1024                " History size
+set ignorecase                  " Ignore case by default
+set smartcase                   " Smart case-sensitivity when searching (overrides ignorecase)
 
 set autoread                    " No prompt for file changes outside Vim
 
