@@ -78,8 +78,8 @@ map <D-N>       :CommandTFlush<CR>:CommandT<CR>
 map <leader>f   :CommandTFlush<CR>:CommandT<CR>
 
 " ctags with rails load path
-map <leader>t :!rails runner 'puts $LOAD_PATH.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
-map <leader>T :!rails runner 'puts $LOAD_PATH.join(" ")' \| xargs rdoc -f tags<CR>
+map <leader>t :!bundle exec rails runner 'puts $LOAD_PATH.select{\|x\| x.include?(Dir.pwd) && x \!~ \%r{/(vendor\|spec)\b} }.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
+map <leader>T :!bundle exec rails runner 'puts $LOAD_PATH.select{\|x\| x.include?(Dir.pwd) && x \!~ \%r{/(vendor\|spec)\b} }.join(" ")' \| xargs bundle exec rdoc -f tags; /usr/local/bin/ctags --append -R public/javascripts<CR>
 
 " Option-click like Rubymine's command-click
 map <M-LeftMouse> :tag <C-r><C-w><CR>
