@@ -7,6 +7,12 @@ let maplocalleader = ";"
 " kj - The intuitive way to get out of insert mode
 imap kj         <Esc>
 
+" have W write as well for shift being held too long
+command W w
+
+"set pastetoggle keybinding
+set pastetoggle=<F2>
+
 " Make Y consistent with D and C
 map Y           y$
 
@@ -96,6 +102,16 @@ cmap <C-A> <C-B>
 " Copy current file path to system pasteboard
 map <silent> <D-C> :let @* = expand("%")<CR>:echo "Copied: ".expand("%")<CR>
 map <leader>C :let @* = expand("%").":".line(".")<CR>:echo "Copied: ".expand("%").":".line(".")<CR>
+
+" Run tests
+map <F12> :write<CR>:RunTest<CR>
+imap <F12> <ESC><F12>
+map <F11> :write<CR>:RunTestLine<CR>
+imap <F11> <ESC><F11>
+map <F10> :write<CR>:RunTestAgain<CR>
+imap <F10> <ESC><F10>
+map <F9> :write<CR>:RunTestPrevious<CR>
+imap <F9> <ESC><F9>
 
 " Disable middle mouse button, F1
 map <MiddleMouse>   <Nop>

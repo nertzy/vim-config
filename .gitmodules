@@ -111,3 +111,24 @@
 [submodule "bundle/syntastic"]
 	path = bundle/syntastic
 	url = git://github.com/scrooloose/syntastic.git
+[submodule "bundle/vim-colors-sampler"]
+	path = bundle/vim-colors-sampler
+	url = https://github.com/vim-scripts/Color-Sampler-Pack.git
+[submodule "bundle/enhancedjumps"]
+	path = bundle/enhancedjumps
+	url = https://github.com/vim-scripts/EnhancedJumps.git
+[submodule "bundle/test_server"]
+	path = bundle/test_server
+	url = https://github.com/camelpunch/test_server.git
+[submodule "bundle/diffthese"]
+	path = bundle/diffthese
+	url = git@github.com:matt-royal/diffthese.git
+[submodule "bundle/handlebars"]
+	path = bundle/handlebars
+	url = git://github.com/nono/vim-handlebars.git
+[submodule "bundle/vim-colors-tomorrow"]
+	path = bundle/vim-colors-tomorrow
+	url = https://github.com/chriskempson/vim-tomorrow-theme.git
+[submodule "bundle/vim-powerline"]
+	path = bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline.git
