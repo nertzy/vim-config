@@ -123,7 +123,7 @@
 	url = https://github.com/Raimondi/delimitMate.git
 [submodule "pack/buildgroundwork/opt/base16-vim"]
 	path = pack/buildgroundwork/opt/base16-vim
-	url = https://github.com/base16-project/base16-vim.git
+	url = https://github.com/tinted-theming/base16-vim.git
 [submodule "pack/buildgroundwork/start/editorconfig-vim"]
 	path = pack/buildgroundwork/start/editorconfig-vim
 	url = https://github.com/editorconfig/editorconfig-vim.git
