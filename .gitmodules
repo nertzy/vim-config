@@ -112,9 +112,6 @@
 [submodule "pack/buildgroundwork/start/vim-scala"]
 	path = pack/nertzy/start/vim-scala
 	url = https://github.com/derekwyatt/vim-scala.git
-[submodule "pack/buildgroundwork/start/poet-v"]
-	path = pack/nertzy/start/poet-v
-	url = https://github.com/petobens/poet-v.git
 [submodule "pack/buildgroundwork/start/vim-rbenv"]
 	path = pack/nertzy/start/vim-rbenv
 	url = https://github.com/tpope/vim-rbenv.git
