@@ -1,8 +1,6 @@
-set background=light
+set background=dark
 
-if empty(&guifont)
-  set guifont=SourceCodeProRoman-Regular:h18
-endif
+set guifont=Source\ Code\ Pro:h14
 
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
@@ -11,6 +9,5 @@ set guicursor=a:blinkon0        " Turn off the blinking cursor
 
 set noballooneval
 
-if filereadable($HOME . "/.gvimrc.local")
-  source ~/.gvimrc.local
-endif
+colorscheme Tomorrow-Night-Eighties
+
