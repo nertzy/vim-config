@@ -56,7 +56,8 @@ set autowriteall                " Save when doing various buffer-switching thing
 autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or MacVim loses focus.
 
 set background=dark
-colorscheme base16-tomorrow-night
+let base16colorspace=256
+colorscheme base16-tomorrow-night-eighties
 
 if $TERM == 'screen-256color'
   set t_RV=[>c
@@ -71,13 +72,4 @@ end
 if &term == "screen-256color"
   let &t_SI = "\<Esc>[3 q"
   let &t_EI = "\<Esc>[0 q"
-endif
-
-" base16-shell integration
-set termguicolors
-if exists('$BASE16_THEME')
-    \ && (!exists('g:colors_name') 
-    \ || g:colors_name != 'base16-$BASE16_THEME')
-  let base16colorspace=256
-  colorscheme base16-$BASE16_THEME
 endif

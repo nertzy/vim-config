@@ -21,7 +21,3 @@ source ~/.vim/config/plugins.vim
 
 runtime config/init/**.vim
 
-if filereadable($HOME . "/.vimrc.local")
-  source ~/.vimrc.local
-endif
-
