@@ -1,17 +1,49 @@
-" ----------
-" Vim Config
-" ----------
-"
-"
-" How this works:
-"
-" This file is minimal.  Most of the vim settings and initialization is in
-" several files in .vim/init.  This makes it easier to find things and to
-" merge between branches and repos.
-"
-" Please do not add configuration to this file, unless it *really* needs to
-" come first or last, like Pathogen and sourcing the machine-local config.
-" Instead, add it to one of the files in .vim/init, or create a new one.
+call plug#begin()
+Plug 'tpope/vim-sensible'
+Plug 'tpope/vim-rails'
+Plug 'tpope/vim-haml'
+Plug 'tpope/vim-endwise'
+Plug 'tpope/vim-surround'
+Plug 'tpope/vim-repeat'
+Plug 'scrooloose/nerdtree'
+Plug 'scrooloose/nerdcommenter'
+Plug 'tpope/vim-abolish'
+Plug 'pangloss/vim-javascript'
+Plug 'altercation/vim-colors-solarized'
+Plug 'tpope/vim-fugitive'
+Plug 'nelstrom/vim-textobj-rubyblock'
+Plug 'kana/vim-textobj-user'
+Plug 'tpope/vim-unimpaired'
+Plug 'vim-ruby/vim-ruby'
+Plug 'chriskempson/vim-tomorrow-theme'
+Plug 'mgamba/j-split'
+Plug 'jgdavey/vim-blockle'
+Plug 'airblade/vim-gitgutter'
+Plug 'tpope/vim-rake'
+Plug 'ddrscott/vim-side-search'
+Plug 'mbbill/undotree'
+Plug 'jremmen/vim-ripgrep'
+Plug 'junegunn/fzf.vim'
+Plug 'tpope/vim-bundler'
+Plug 'dense-analysis/ale'
+Plug 'MaxMEllon/vim-jsx-pretty'
+Plug 'vim-scripts/regreplop.vim'
+Plug 'tomasr/molokai'
+Plug 'tpope/vim-dispatch'
+Plug 'janko/vim-test'
+Plug 'SirVer/ultisnips'
+Plug 'tmux-plugins/vim-tmux-focus-events'
+Plug 'https://github.com/elzr/vim-json'
+Plug 'https://github.com/sjl/vitality.vim'
+Plug 'https://github.com/mvolkmann/vim-js-arrow-function'
+Plug 'https://github.com/chrisbra/csv.vim'
+Plug 'https://github.com/derekwyatt/vim-scala'
+Plug 'https://github.com/tpope/vim-rbenv'
+Plug 'https://github.com/Raimondi/delimitMate'
+Plug 'https://github.com/tinted-theming/base16-vim'
+Plug 'https://github.com/editorconfig/editorconfig-vim'
+Plug 'https://github.com/georgewitteman/vim-fish'
+call plug#end()
 
 source ~/.vim/config/init.vim
 source ~/.vim/config/settings.vim

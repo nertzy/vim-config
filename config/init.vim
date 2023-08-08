@@ -1,5 +1,3 @@
-colorscheme solarized
-
 set ruler
 set showcmd
 set incsearch
