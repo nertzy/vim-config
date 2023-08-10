@@ -43,6 +43,7 @@ Plug 'Raimondi/delimitMate'
 Plug 'tinted-theming/base16-vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'georgewitteman/vim-fish'
+Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
 call plug#end()
 
 source ~/.vim/config/init.vim
