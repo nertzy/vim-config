@@ -1,6 +1,6 @@
 set background=dark
 
-set guifont=Source\ Code\ Pro:h14
+set guifont=Source\ Code\ Pro:h18
 
 set guioptions-=T               " Remove GUI toolbar
 set guioptions-=e               " Use text tab bar, not GUI
