@@ -31,7 +31,6 @@ Plug 'vim-scripts/regreplop.vim'
 Plug 'tomasr/molokai'
 Plug 'tpope/vim-dispatch'
 Plug 'janko/vim-test'
-Plug 'SirVer/ultisnips'
 Plug 'tmux-plugins/vim-tmux-focus-events'
 Plug 'elzr/vim-json'
 Plug 'sjl/vitality.vim'
@@ -44,6 +43,10 @@ Plug 'tinted-theming/base16-vim'
 Plug 'editorconfig/editorconfig-vim'
 Plug 'georgewitteman/vim-fish'
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+Plug 'fladson/vim-kitty'
+Plug 'github/copilot.vim'
+Plug 'nvim-lua/plenary.nvim'
+Plug 'jose-elias-alvarez/null-ls.nvim'
 call plug#end()
 
 source ~/.vim/config/init.vim

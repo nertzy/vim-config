@@ -58,19 +58,6 @@ specified register.
 #### Mappings:
 - <kbd>Ctrl+k</kbd> (followed by a motion) Replace with register
 
-## [ultisnips](https://github.com/sirver/UltiSnips)
-
-The ultimate snippet solution for Vim.
-
-Type the snippet followed by <kbd>tab</kbd><kbd>.</kbd>
-
-#### List of custom snippets (incomplete):
-- `f` Add a function definition in JavaScript
-- `desc` Add a describe block in RSpec or Jasmine
-- `cont` Add a context block in RSpec or Jasmine
-- `bef` Add a before block in RSpec or Jasmine
-- `it` Add an example in Jasmine
-
 ## [undotree](https://github.com/mbbill/undotree)
 The undo history visualizer for VIM
 
