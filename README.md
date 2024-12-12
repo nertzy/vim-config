@@ -2,7 +2,7 @@
 
 Clone the repo and run the install script:
 
-    git clone https://github.com/srpatx/vim-config.git ~/.vim
+    git clone https://github.com/nertzy/vim-config.git ~/.vim
     cd ~/.vim
     ./install
 
