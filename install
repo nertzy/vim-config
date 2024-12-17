@@ -10,4 +10,4 @@ ROOT="$(cd "$(dirname "$0")"; pwd)"
 ln -sf "$ROOT/vimrc" ~/.vimrc
 ln -sf "$ROOT/gvimrc" ~/.gvimrc
 ln -sf "$ROOT/ideavimrc" ~/.ideavimrc
-ln -sf "$ROOT/nvim" ~/.config/nvim
+ln -sF "$ROOT/nvim" ~/.config/nvim
