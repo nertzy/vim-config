@@ -1,13 +1,12 @@
 #!/bin/bash
 
+# http://redsymbol.net/articles/unofficial-bash-strict-mode/
+set -euo pipefail
+IFS=$'\n\t'
+
 ROOT="$(cd "$(dirname "$0")"; pwd)"
 
-set -e
-set -x
 
-cd "$ROOT"
-git submodule sync
-git submodule update --init --recursive
 ln -sf "$ROOT/vimrc" ~/.vimrc
 ln -sf "$ROOT/gvimrc" ~/.gvimrc
 ln -sf "$ROOT/ideavimrc" ~/.ideavimrc
