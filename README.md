@@ -23,10 +23,8 @@ Provides insert mode auto-completion for quotes, parens, brackets, etc.
 ## [fzf](https://github.com/junegunn/fzf)
 🌸 A command-line fuzzy finder
 
-**Note**: The default commands for fzf are `:Files`, `:GFiles`, etc.; we have configured the plugin to add the 'Fzf' prefix to commands to disambiguate with other plugins.
-
 #### Mappings:
-- <kbd>leader</kbd><kbd>f</kbd> Fuzzy search for files.  This will ignore any files ignored by git if the current directory is a git repository (`:FzfGFiles`) or search all files if not (`:FzfFiles`).
+- <kbd>leader</kbd><kbd>f</kbd> Fuzzy search for files.  This will ignore any files ignored by git if the current directory is a git repository (`:GFiles`) or search all files if not (`:Files`).
 - <kbd>leader</kbd><kbd>r</kbd><kbd>b</kbd> Fuzzy search open buffers.
 
 ## [j-split](https://github.com/mgamba/j-split)
@@ -135,11 +133,6 @@ Minimal rbenv support
 Enable repeating supported plugin maps with ".".
 
 Allow using the <kbd>.</kbd> command to repeat commands from the surround, and unimpaired plugins.
-
-## [vim-ripgrep](https://github.com/jremmen/vim-ripgrep)
-Use RipGrep in Vim and display results in a quickfix list.
-
-Use `:Rg` to search for files.  Similar to `:Ack` and `:Ag`.
 
 ## [vim-ruby](https://github.com/vim-ruby/vim-ruby)
 Vim/Ruby Configuration Files

@@ -30,10 +30,10 @@ map \           :NERDTreeToggle<CR>
 map \|          :NERDTreeFind<CR>
 
 " Fuzzy find buffers
-map <leader>rb  :FzfBuffers<CR>
+map <leader>rb  :Buffers<CR>
 
 " Fuzzy find files
-nnoremap <expr> <leader>f (len(system('git rev-parse')) ? ':FzfFiles' : ':FzfGFiles --cached --others --exclude-standard')."\<cr>"
+nnoremap <expr> <leader>f (len(system('git rev-parse')) ? ':Files' : ':GFiles --cached --others --exclude-standard')."\<cr>"
 
 " ctags with rails load path
 map <leader>rt :!bundle exec rails runner 'puts $LOAD_PATH.select{\|x\| x.include?(Dir.pwd) && x \!~ \%r{/(vendor\|spec)\b} }.join(" ")' \| xargs /usr/local/bin/ctags -R public/javascripts<CR>
@@ -57,7 +57,7 @@ map <F1>            <Nop>
 imap <F1>           <Nop>
 
 " Global search
-map <leader>a :FzfRg<CR>
+map <leader>a :Rg<CR>
 
 " Recalculate diff when it gets messed up.
 nmap du :diffupdate<CR>
