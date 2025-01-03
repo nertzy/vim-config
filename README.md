@@ -136,8 +136,8 @@ Enable repeating supported plugin maps with ".".
 
 Allow using the <kbd>.</kbd> command to repeat commands from the surround, and unimpaired plugins.
 
-## [vim-ripgrep](https://github.com/jremmen/vim-ripgrep)
-Use RipGrep in Vim and display results in a quickfix list.
+## [vim-ripgrep](https://github.com/kyoh86/vim-ripgrep)
+A plugin for Vim8/Neovim to search text by ripgrep (rg) asynchronously
 
 Use `:Rg` to search for files.  Similar to `:Ack` and `:Ag`.
 

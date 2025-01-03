@@ -1,3 +1,1 @@
-" Remap command for old/crotchety folks.
-cnoreabbrev Ag Rg
-
+command! -nargs=+ -complete=file Rg :call ripgrep#search(<q-args>)
