@@ -56,9 +56,8 @@ set autowriteall                " Save when doing various buffer-switching thing
 autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or MacVim loses focus.
 
 set background=dark
-" let base16colorspace=256
-" colorscheme base16-tomorrow-night-eighties
-colorscheme Tomorrow-Night-Eighties
+let tintedcolorspace=256
+set termguicolors
 
 if $TERM == 'screen-256color'
   set t_RV=[>c

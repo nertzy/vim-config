@@ -9,5 +9,4 @@ set guicursor=a:blinkon0        " Turn off the blinking cursor
 
 set noballooneval
 
-colorscheme Tomorrow-Night-Eighties
-
+colorscheme base16-tomorrow-night-eighties
