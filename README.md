@@ -12,14 +12,6 @@ Clone the repo and run the install script:
 
 ## Included plugins
 
-### [ALE](https://github.com/dense-analysis/ale)
-
-ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors) while you edit your text files, and acts as a Vim [Language Server Protocol](https://langserver.org) client.
-
-#### Mappings
-
-- <kbd>Ctrl+j</kbd> / <kbd>Ctrl+Shift+j</kbd> Jump to next/previous error
-
 ### [csv.vim](https://github.com/chrisbra/csv.vim)
 
 A Filetype plugin for csv files

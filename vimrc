@@ -30,7 +30,6 @@ Plug 'kyoh86/vim-ripgrep'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-bundler'
-Plug 'dense-analysis/ale'
 Plug 'MaxMEllon/vim-jsx-pretty'
 Plug 'vim-scripts/regreplop.vim'
 Plug 'tpope/vim-dispatch'
@@ -54,6 +53,9 @@ Plug 'avm99963/vim-jjdescription'
 Plug 'fladson/vim-kitty', { 'tag': '*' }
 Plug 'kepano/flexoki-neovim'
 Plug 'nanotee/zoxide.vim'
+Plug 'prabirshrestha/vim-lsp'
+Plug 'mattn/vim-lsp-settings'
+Plug 'prabirshrestha/asyncomplete.vim'
 
 if has('nvim')
 
