@@ -16,7 +16,7 @@ Clone the repo and run the install script:
 
 ALE (Asynchronous Lint Engine) is a plugin providing linting (syntax checking and semantic errors) while you edit your text files, and acts as a Vim [Language Server Protocol](https://langserver.org) client.
 
-##### Mappings
+#### Mappings
 
 - <kbd>Ctrl+j</kbd> / <kbd>Ctrl+Shift+j</kbd> Jump to next/previous error
 
@@ -34,7 +34,7 @@ Provides insert mode auto-completion for quotes, parens, brackets, etc.
 
 **Note**: The default commands for fzf are `:Files`, `:GFiles`, etc.; we have configured the plugin to add the 'Fzf' prefix to commands to disambiguate with other plugins.
 
-##### Mappings
+#### Mappings
 
 - <kbd>leader</kbd><kbd>f</kbd> Fuzzy search for files.  This will ignore any files ignored by git if the current directory is a git repository (`:FzfGFiles`) or search all files if not (`:FzfFiles`).
 - <kbd>leader</kbd><kbd>r</kbd><kbd>b</kbd> Fuzzy search open buffers.
@@ -43,7 +43,7 @@ Provides insert mode auto-completion for quotes, parens, brackets, etc.
 
 Easily split a single line across multiple lines.
 
-##### Mappings
+#### Mappings
 
 - <kbd>leader</kbd><kbd>j</kbd> Split the current line.
 
@@ -51,7 +51,7 @@ Easily split a single line across multiple lines.
 
 Vim plugin for intensely nerdy commenting powers.
 
-##### Mappings
+#### Mappings
 
 - <kbd>leader</kbd><kbd>/</kbd> Comment/uncomment the current line or selection.
 
@@ -59,7 +59,7 @@ Vim plugin for intensely nerdy commenting powers.
 
 A tree explorer plugin for vim.
 
-##### Mappings
+#### Mappings
 
 - <kbd>\\</kbd><kbd>\\</kbd> Open/close the directory tree.
 - <kbd>|</kbd> (<kbd>shift+\\</kbd>) Open the directory tree focused on the file in the active buffer.
@@ -69,7 +69,7 @@ A tree explorer plugin for vim.
 This plugin provides a operator to replace something(motion/visual) with a
 specified register.
 
-##### Mappings
+#### Mappings
 
 - <kbd>Ctrl+k</kbd> (followed by a motion) Replace with register
 
@@ -77,7 +77,7 @@ specified register.
 
 The undo history visualizer for VIM
 
-##### Mappings
+#### Mappings
 
 - <kbd>leader</kbd><kbd>u</kbd> Open the undo tree window.
 
@@ -91,7 +91,7 @@ Augments the standard search and replace (`:s`) with a smarter search and replac
 
 Brace yourself, it's time to toggle your ruby blocks!
 
-##### Mappings
+#### Mappings
 
 - <kbd>leader</kbd><kbd>l</kbd> Convert between `do`/`end` and `{}` ruby blocks.
 
@@ -137,7 +137,7 @@ Vastly improved JavaScript indentation and syntax support in Vim.
 
 Ability to toggle JavaScript functions to-and-from arrow functions and toggle their braces.
 
-##### Mappings
+#### Mappings
 
 - <kbd>leader</kbd><kbd>l</kbd> Toggle braces on an arrow function
 
@@ -199,7 +199,7 @@ Adds a *surround* action for most motions.  Possibly the greatest text-editing p
 
 A Vim wrapper for running tests on different granularities.
 
-##### Mappings
+#### Mappings
 
 - <kbd>t</kbd><kbd>Ctrl+n</kbd> (`:TestNearest`) Runs the test nearest to the cursor
 - <kbd>t</kbd><kbd>Ctrl+f</kbd> (`:TestFile`) Runs all tests in the current file
