@@ -12,3 +12,4 @@ set foldmethod=manual
 
 set visualbell
 
+set tags+=gems.tags
