@@ -53,6 +53,24 @@ Plug 'jose-elias-alvarez/null-ls.nvim'
 
 if has('nvim')
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  Plug 'https://github.com/apple/pkl-neovim.git'
+
+
+  " The below is required for enabling the tree-sitter syntax engine, which is used by pkl-neovim.
+  lua <<EOF
+  local hasConfigs, configs = pcall(require, "nvim-treesitter.configs")
+  if hasConfigs then
+    configs.setup {
+      ensure_installed = "pkl",
+      highlight = {
+        enable = true,              -- false will disable the whole extension
+      },
+      indent = {
+        enable = true
+      }
+    }
+  end
+EOF
 end
 
 call plug#end()

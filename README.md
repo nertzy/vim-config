@@ -64,6 +64,10 @@ A tree explorer plugin for vim.
 - <kbd>\\</kbd><kbd>\\</kbd> Open/close the directory tree.
 - <kbd>|</kbd> (<kbd>shift+\\</kbd>) Open the directory tree focused on the file in the active buffer.
 
+### [pkl-neovim](https://github.com/apple/pkl-neovim)
+
+Pkl language support for Neovim 
+
 ### [regreplop](https://github.com/vim-scripts/regreplop.vim)
 
 This plugin provides a operator to replace something(motion/visual) with a
