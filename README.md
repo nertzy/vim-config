@@ -137,6 +137,10 @@ Updated versions of runtime files that ship with vim.
 
 Vastly improved JavaScript indentation and syntax support in Vim.
 
+### [vim-jjdescription](https://gerrit.avm99963.com/plugins/gitiles/vim/jjdescription/)
+
+Plugin which adds syntax highlighting to .jjdescription files in Vim.
+
 ### [vim-js-arrow-function](https://github.com/mvolkmann/vim-js-arrow-function)
 
 Ability to toggle JavaScript functions to-and-from arrow functions and toggle their braces.
