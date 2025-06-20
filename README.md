@@ -157,6 +157,10 @@ A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specifi
 
 JSX and TSX syntax pretty highlighting for vim.
 
+### [vim-kitty](https://github.com/fladson/vim-kitty)
+
+Vim syntax highlighting for Kitty terminal config files
+
 ### [vim-rails](https://github.com/tpope/vim-rails)
 
 Ruby on Rails power tools
