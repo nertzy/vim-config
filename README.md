@@ -195,12 +195,6 @@ Vim/Ruby Configuration Files
 
 Syntax highlighting and indentation for ruby.
 
-### [vim-side-search](https://github.com/ddrscott/vim-side-search)
-
-Search context in Vim in a sidebar using `ag` output.
-
-Use `:SideSearch` or `:SS` to search for files.  Customized to work with ripgrep.
-
 ### [vim-surround](https://github.com/tpope/vim-surround)
 
 Quoting/parenthesizing made simple.
