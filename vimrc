@@ -27,6 +27,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'tpope/vim-rake'
 Plug 'mbbill/undotree'
 Plug 'kyoh86/vim-ripgrep'
+Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'tpope/vim-bundler'
 Plug 'dense-analysis/ale'
