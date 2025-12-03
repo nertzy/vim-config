@@ -48,46 +48,30 @@ Plug 'editorconfig/editorconfig-vim'
 Plug 'georgewitteman/vim-fish'
 Plug 'fladson/vim-kitty'
 Plug 'github/copilot.vim'
-Plug 'nvim-lua/plenary.nvim'
-Plug 'jose-elias-alvarez/null-ls.nvim'
 Plug 'avm99963/vim-jjdescription'
-Plug 'fladson/vim-kitty', { 'tag': '*' }
-Plug 'kepano/flexoki-neovim'
 Plug 'nanotee/zoxide.vim'
+Plug 'will133/vim-dirdiff'
 
 if has('nvim')
+  Plug 'nvim-lua/plenary.nvim'
 
-  Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
+  Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'https://github.com/apple/pkl-neovim.git'
 
-  " The below is required for enabling the tree-sitter syntax engine, which is used by pkl-neovim.
-  lua <<LUA
-    local hasConfigs, configs = pcall(require, "nvim-treesitter.configs")
-    if hasConfigs then
-      configs.setup {
-        ensure_installed = "pkl",
-        highlight = {
-          enable = true,              -- false will disable the whole extension
-        },
-        indent = {
-          enable = true
-        }
-      }
-    end
-LUA
-
-  Plug 'nvim-lua/plenary.nvim'
-  Plug 'nvim-treesitter/nvim-treesitter'
   Plug 'olimorris/codecompanion.nvim'
-  
-  " Codecompanion companion plugins
+
+  " CodeCompanion-related UI
   Plug 'nvim-telescope/telescope.nvim'
   Plug 'folke/which-key.nvim'
   Plug 'folke/trouble.nvim'
   Plug 'nvim-tree/nvim-web-devicons'
 
-end
+  " Replace archived null-ls with maintained fork if you still need it
+  Plug 'nvimtools/none-ls.nvim'
 
+  Plug 'f-person/auto-dark-mode.nvim'
+  Plug 'kepano/flexoki-neovim'
+end
 call plug#end()
 
 if has('nvim')

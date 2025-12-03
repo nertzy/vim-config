@@ -244,3 +244,7 @@ It also handles switching the cursor to a bar shaped one when in insert mode, an
 ### [tinted-vim](https://github.com/tinted-theming/tinted-vim)
 
 tinted-vim refreshes and commits new themes weekly automatically and has a documented build process.
+
+### [flexoki](https://github.com/kepano/flexoki-neovim)
+
+[Flexoki](https://stephango.com/flexoki) color scheme for Neovim

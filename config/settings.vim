@@ -55,7 +55,6 @@ nnoremap <silent> <Space> :nohlsearch<Bar>:echo<CR>""
 set autowriteall                " Save when doing various buffer-switching things.
 autocmd BufLeave,FocusLost * silent! wall  " Save anytime we leave a buffer or MacVim loses focus.
 
-set background=dark
 let tintedcolorspace=256
 set termguicolors
 
@@ -74,5 +73,4 @@ if &term == "screen-256color"
   let &t_EI = "\<Esc>[0 q"
 endif
 
-" Flexoki for now
-colorscheme flexoki-light
+colorscheme flexoki
