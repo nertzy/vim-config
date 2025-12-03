@@ -23,6 +23,7 @@ if has('nvim')
           end,
         },
       },
+      ignore_warnings = true
     })
 LUA
 end
