@@ -76,7 +76,10 @@ call plug#end()
 
 if has('nvim')
   lua require("codecompanion").setup()
-  lua require("auto-dark-mode").setup()
+  " On Linux the plugin needs dbus-send (absent on headless servers)
+  if has('mac') || executable('dbus-send')
+    lua require("auto-dark-mode").setup()
+  endif
 end
 
 source ~/.vim/config/init.vim
