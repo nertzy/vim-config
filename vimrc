@@ -75,10 +75,8 @@ end
 call plug#end()
 
 if has('nvim')
-" Setup code companion
-  lua <<LUA
-    require("codecompanion").setup()
-LUA
+  lua require("codecompanion").setup()
+  lua require("auto-dark-mode").setup()
 end
 
 source ~/.vim/config/init.vim
