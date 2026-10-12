@@ -55,7 +55,8 @@ Plug 'will133/vim-dirdiff'
 if has('nvim')
   Plug 'nvim-lua/plenary.nvim'
 
-  Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
+  " Fork adding tree-sitter-bats; see nvim/plugin/bats.lua
+  Plug 'nertzy/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'https://github.com/apple/pkl-neovim.git'
 
   Plug 'olimorris/codecompanion.nvim'
