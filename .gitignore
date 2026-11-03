@@ -1,3 +1,4 @@
 .netrwhist
 .vimlog
 plugged
+autoload/plug.vim.old
