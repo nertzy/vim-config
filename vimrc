@@ -55,8 +55,7 @@ Plug 'will133/vim-dirdiff'
 if has('nvim')
   Plug 'nvim-lua/plenary.nvim'
 
-  " Fork adding tree-sitter-bats; see nvim/plugin/bats.lua
-  Plug 'nertzy/nvim-treesitter', { 'do': ':TSUpdate' }
+  Plug 'nvim-treesitter/nvim-treesitter', { 'do': ':TSUpdate' }
   Plug 'https://github.com/apple/pkl-neovim.git'
 
   Plug 'olimorris/codecompanion.nvim'
@@ -76,6 +75,7 @@ end
 call plug#end()
 
 if has('nvim')
+  lua require("tree_sitter_bats")
   lua require("codecompanion").setup()
   " On Linux the plugin needs dbus-send (absent on headless servers)
   if has('mac') || executable('dbus-send')
